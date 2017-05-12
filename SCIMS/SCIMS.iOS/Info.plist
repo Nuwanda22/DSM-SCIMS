@@ -21,11 +21,11 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>8.0</string>
+	<string>10.3</string>
 	<key>CFBundleDisplayName</key>
-	<string>DSM Student Council</string>
+	<string>SCIMS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.nuwanda.dsm</string>
+	<string>com.nuwanda.scims</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SCIMS.Pages"
+             x:Class="SCIMS.Pages.SidePage"
+             Title="Menu">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="3*" />
+        </Grid.RowDefinitions>
+        <Grid BackgroundColor="#2196F3"
+              HeightRequest="500"
+              Grid.Row="0">
+            <Label Text="대마고 학생회 공식앱"
+                   TextColor="White"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand" />
+        </Grid>
+        <ListView ItemsSource="{x:Static local:SidePage.ListViewItems}"
+                  ItemSelected="ListView_ItemSelected"
+                  Grid.Row="1">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell Text="{Binding Name}"
+                               TextColor="Black"
+                               ImageSource="{Binding Source}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

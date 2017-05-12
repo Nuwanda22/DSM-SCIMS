@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace SCIMS.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class OpenClosedIssuesPage : TabbedPage
+    public partial class HomePage : ContentPage
     {
-        public OpenClosedIssuesPage()
+        public HomePage()
         {
             InitializeComponent();
         }

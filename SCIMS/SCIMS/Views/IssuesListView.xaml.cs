@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -33,6 +34,16 @@ namespace SCIMS.Views
         public IssuesListView()
         {
             InitializeComponent();
+        }
+
+        private async Task Download()
+        {
+            using(HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", "GitHub-Blog-App");
+
+                await client.GetStringAsync(""); // TODO: 해라
+            }
         }
     }
 }

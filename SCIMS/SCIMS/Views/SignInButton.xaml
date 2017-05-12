@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms"
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      x:Class="SCIMS.Views.SignInButton"
+      Margin="20,0">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="1*" />
+        <ColumnDefinition Width="4*" />
+    </Grid.ColumnDefinitions>
+
+    <Button BackgroundColor="#444444"
+            Clicked="Button_Clicked"
+            Grid.Column="0"
+            Grid.ColumnSpan="2" />
+
+    <Image x:Name="image"
+           Margin="20,10,0,10"
+           Source="github.png"
+           Grid.Column="0" />
+
+    <Label Text="Sign in with GitHub"
+           TextColor="White"
+           FontSize="Medium"
+           FontAttributes="Bold"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           Grid.Column="1" />
+</Grid>

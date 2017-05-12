@@ -8,9 +8,9 @@
     <ProjectGuid>{0ED5D435-1534-46B3-91FA-C5646DC5477B}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DSMStudentCouncil.iOS</RootNamespace>
+    <RootNamespace>SCIMS.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>DSMStudentCouncil.iOS</AssemblyName>
+    <AssemblyName>SCIMS.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -135,9 +135,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DSMStudentCouncil\DSMStudentCouncil.csproj">
-      <Project>{f667d33b-fbb0-42f8-8a24-abbf59a6e123}</Project>
-      <Name>DSMStudentCouncil</Name>
+    <ProjectReference Include="..\SCIMS\SCIMS.csproj">
+      <Project>{1901B6FA-74B0-495C-8D6C-6E602A211E4B}</Project>
+      <Name>SCIMS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

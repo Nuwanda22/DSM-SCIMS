@@ -7,8 +7,8 @@
     <ProjectGuid>{F3C87C6A-6A78-485C-AF62-A1574A32B52D}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DSMStudentCouncil.UWP</RootNamespace>
-    <AssemblyName>DSM Student Council</AssemblyName>
+    <RootNamespace>SCIMS.UWP</RootNamespace>
+    <AssemblyName>SCIMS</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
@@ -152,9 +152,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DSMStudentCouncil\DSMStudentCouncil.csproj">
-      <Project>{f667d33b-fbb0-42f8-8a24-abbf59a6e123}</Project>
-      <Name>DSMStudentCouncil</Name>
+    <ProjectReference Include="..\SCIMS\SCIMS.csproj">
+      <Project>{1901B6FA-74B0-495C-8D6C-6E602A211E4B}</Project>
+      <Name>SCIMS</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

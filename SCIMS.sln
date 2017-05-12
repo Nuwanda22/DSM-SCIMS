@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSMStudentCouncil.Android", "DSMStudentCouncil\DSMStudentCouncil.Android\DSMStudentCouncil.Android.csproj", "{DDC5B41E-6E90-46EB-B7B5-090FE9843A4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCIMS.Android", "SCIMS\SCIMS.Android\SCIMS.Android.csproj", "{DDC5B41E-6E90-46EB-B7B5-090FE9843A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSMStudentCouncil", "DSMStudentCouncil\DSMStudentCouncil\DSMStudentCouncil.csproj", "{1901B6FA-74B0-495C-8D6C-6E602A211E4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCIMS", "SCIMS\SCIMS\SCIMS.csproj", "{1901B6FA-74B0-495C-8D6C-6E602A211E4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSMStudentCouncil.UWP", "DSMStudentCouncil\DSMStudentCouncil.UWP\DSMStudentCouncil.UWP.csproj", "{F3C87C6A-6A78-485C-AF62-A1574A32B52D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCIMS.UWP", "SCIMS\SCIMS.UWP\SCIMS.UWP.csproj", "{F3C87C6A-6A78-485C-AF62-A1574A32B52D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSMStudentCouncil.iOS", "DSMStudentCouncil\DSMStudentCouncil.iOS\DSMStudentCouncil.iOS.csproj", "{0ED5D435-1534-46B3-91FA-C5646DC5477B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCIMS.iOS", "SCIMS\SCIMS.iOS\SCIMS.iOS.csproj", "{0ED5D435-1534-46B3-91FA-C5646DC5477B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

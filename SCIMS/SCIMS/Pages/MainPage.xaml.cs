@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace DSMStudentCouncil.Pages
+namespace SCIMS.Pages
 {
     public partial class MainPage : MasterDetailPage
     {

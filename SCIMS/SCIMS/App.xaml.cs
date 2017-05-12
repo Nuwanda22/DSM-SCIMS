@@ -5,9 +5,9 @@ using System.Text;
 
 using Xamarin.Forms;
 
-using DSMStudentCouncil.Pages;
+using SCIMS.Pages;
 
-namespace DSMStudentCouncil
+namespace SCIMS
 {
     public partial class App : Application
     {

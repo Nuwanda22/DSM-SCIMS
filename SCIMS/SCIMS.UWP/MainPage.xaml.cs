@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace DSMStudentCouncil.UWP
+namespace SCIMS.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace DSMStudentCouncil.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new DSMStudentCouncil.App());
+            LoadApplication(new SCIMS.App());
         }
     }
 }

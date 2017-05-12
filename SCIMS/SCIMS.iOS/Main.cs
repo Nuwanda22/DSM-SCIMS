@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace DSMStudentCouncil.iOS
+namespace SCIMS.iOS
 {
     public class Application
     {

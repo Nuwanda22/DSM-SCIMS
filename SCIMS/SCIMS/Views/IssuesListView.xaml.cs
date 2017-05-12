@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace DSMStudentCouncil.Views
+namespace SCIMS.Views
 {
     public enum IssueState
     {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace DSMStudentCouncil.Pages
+namespace SCIMS.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class OpenClosedIssuesPage : TabbedPage

@@ -45,6 +45,6 @@ namespace SCIMS.Models
 
         public string Body { get; set; }
 
-        public string Description { get => $"#{Number} {Title}"; }
+        public string Description { get { return $"#{Number} {Title}"; } }
     }
 }

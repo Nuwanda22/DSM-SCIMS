@@ -18,7 +18,7 @@ namespace SCIMS.Models
         [JsonProperty(PropertyName = "avatar_url")]
         public string AvatarUrl { get; set; }
 
-        public Uri AvatarImageUri { get => new Uri(AvatarUrl); }
+        public Uri AvatarImageUri { get { return new Uri(AvatarUrl); } }
        
         public string Url { get; set; }
 

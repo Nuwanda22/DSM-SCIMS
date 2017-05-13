@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace SCIMS.Models
 {
@@ -16,7 +17,9 @@ namespace SCIMS.Models
 
         [JsonProperty(PropertyName = "avatar_url")]
         public string AvatarUrl { get; set; }
-        
+
+        public Uri AvatarImageUri { get => new Uri(AvatarUrl); }
+       
         public string Url { get; set; }
 
         [JsonProperty(PropertyName = "html_url")]

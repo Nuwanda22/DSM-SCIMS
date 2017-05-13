@@ -5,8 +5,8 @@
              x:Class="SCIMS.Pages.HomePage"
              Title="Home">
     <StackLayout>
-        <views:IssuesListView State="Closed" />
-        
+        <views:IssuesListView State="Open" />
+
         <views:SignInButton Margin="20,0"
                             HeightRequest="75"
                             HorizontalOptions="CenterAndExpand"

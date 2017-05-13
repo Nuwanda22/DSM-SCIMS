@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 
 using SCIMS.API;
+using System.ComponentModel;
 
 namespace SCIMS.Views
 {
-
     public partial class IssuesListView : ListView
     {
         public static readonly BindableProperty StateProperty = BindableProperty.Create("State", typeof(IssueState), typeof(IssuesListView), default(IssueState));
@@ -31,6 +31,11 @@ namespace SCIMS.Views
         public IssuesListView()
         {
             InitializeComponent();
+
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                ItemsSource = await new GitHubClient().DownloadIssueList(State, Labels);
+            });
         }
     }
 }

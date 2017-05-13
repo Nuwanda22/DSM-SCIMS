@@ -41,8 +41,10 @@ namespace SCIMS.Models
         public DateTime UpdatedAt { get; set; }
 
         [JsonProperty(PropertyName = "closed_at")]
-        public DateTime ClosedAt { get; set; }
+        public DateTime? ClosedAt { get; set; }
 
         public string Body { get; set; }
+
+        public string Description { get => $"#{Number} {Title}"; }
     }
 }

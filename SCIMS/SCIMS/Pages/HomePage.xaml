@@ -4,9 +4,12 @@
              xmlns:views="clr-namespace:SCIMS.Views"
              x:Class="SCIMS.Pages.HomePage"
              Title="Home">
-    
-    <views:SignInButton Margin="20,0"
-                        HeightRequest="75"
-                        HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="CenterAndExpand" />
+    <StackLayout>
+        <views:IssuesListView State="Closed" />
+        
+        <views:SignInButton Margin="20,0"
+                            HeightRequest="75"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="CenterAndExpand" />
+    </StackLayout>
 </ContentPage>

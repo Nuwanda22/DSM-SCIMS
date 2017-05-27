@@ -3,7 +3,7 @@
                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                   xmlns:local="clr-namespace:SCIMS.Pages"
                   x:Class="SCIMS.Pages.MainPage"
-                  MasterBehavior="Popover">.l
+                  MasterBehavior="Popover">
     <MasterDetailPage.Master>
         <local:SidePage ItemSelected="SidePage_ItemSelected"/>
     </MasterDetailPage.Master>

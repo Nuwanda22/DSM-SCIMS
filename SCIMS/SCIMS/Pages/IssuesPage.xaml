@@ -4,6 +4,15 @@
             xmlns:local="clr-namespace:SCIMS.Views"
             x:Class="SCIMS.Pages.IssuesPage"
             Title="Issues">
-    <ContentPage Title="Open" />
-    <ContentPage Title="Closed" />
+    <ContentPage Title="Open">
+        <local:IssuesListView State="Open" />
+    </ContentPage>
+    
+    <ContentPage Title="Closed">
+        <local:IssuesListView State="Closed" />
+    </ContentPage>
+    
+    <ContentPage Title="All">
+        <local:IssuesListView State="All" />
+    </ContentPage>
 </TabbedPage>

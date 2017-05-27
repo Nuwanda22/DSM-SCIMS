@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 
 using SCIMS.API;
-using System.ComponentModel;
 
 namespace SCIMS.Views
 {

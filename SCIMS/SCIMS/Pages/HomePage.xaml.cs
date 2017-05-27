@@ -16,5 +16,10 @@ namespace SCIMS.Pages
         {
             InitializeComponent();
         }
+
+        private void SignInButton_Clicked(object sender, EventArgs e)
+        {
+            // TODO: GitHub OAuth2 token 할당 및 저장
+        }
     }
 }

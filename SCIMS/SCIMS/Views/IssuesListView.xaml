@@ -4,17 +4,15 @@
           x:Class="SCIMS.Views.IssuesListView">
     <ListView.ItemTemplate>
         <DataTemplate>
-            <!--TODO-->
             <ImageCell Text="{Binding Description}"
                        TextColor="Black"
                        Detail="{Binding User.Username}">
                 <ImageCell.ImageSource>
-                    <UriImageSource Uri="{Binding User.AvatarImageUri}" 
+                    <UriImageSource Uri="{Binding User.AvatarImageUri}"
                                     CachingEnabled="True"
                                     CacheValidity="5" />
                 </ImageCell.ImageSource>
             </ImageCell>
-            
         </DataTemplate>
     </ListView.ItemTemplate>
 </ListView>
